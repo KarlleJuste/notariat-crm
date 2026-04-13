@@ -89,6 +89,6 @@ export async function listEventIdsWithDemos(): Promise<string[]> {
     .select("event_id")
     .eq("is_removed", false);
   if (error) throw new Error(error.message);
-  const ids = [...new Set((data ?? []).map((r) => r.event_id))];
+  const ids = Array.from(new Set((data ?? []).map((r) => r.event_id)));
   return ids;
 }
