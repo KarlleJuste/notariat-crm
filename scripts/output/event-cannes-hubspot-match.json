@@ -1,0 +1,1110 @@
+{
+  "summary": {
+    "sourceCsv": "/Users/karllejuste/Downloads/EVENT CANNES - Sheet1.csv",
+    "totalRows": 73,
+    "matchedContact": 73,
+    "unmatchedContactCount": 0,
+    "contactsWithNoDeals": 3,
+    "rowsWithRecommendedDeal": 70,
+    "uniqueRecommendedDeals": 67,
+    "dashboardNote": "Le dashboard (événement, pipeline, MRR) s’alimente après import des hubspot_deal_id dans l’événement Cannes puis « Rafraîchir HubSpot » et sync Stripe. Le MRR € ne sort pas de ce CSV : il vient des abonnements Stripe rattachés par email.",
+    "unmatchedEmails": [],
+    "contactsWithoutDeals": [
+      "derouetclement@gmail.com",
+      "contact@gin44.fr",
+      "are@conseil-et-notaire.fr"
+    ]
+  },
+  "rows": [
+    {
+      "ligne": 2,
+      "email": "julien.guennec@lawriant.notaires.fr",
+      "prenom": "julien",
+      "nom": "Guennec",
+      "etude": "LAW-RIANT, SELARL",
+      "hubspot_contact_id": "332775388346",
+      "hubspot_deal_ids": [
+        "498333126873",
+        "498333847797"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "498333126873",
+      "recommended_deal_name": "LAW-RIANT- Lorient Villeneuve - 56081 ",
+      "recommended_stage": "closedwon"
+    },
+    {
+      "ligne": 3,
+      "email": "w.ridouan-allali@officedu21.notaires.fr",
+      "prenom": "Wafaa",
+      "nom": "Redouane",
+      "etude": "LES NOTAIRES DU 21 RUE D'ANTIBES, SELAS",
+      "hubspot_contact_id": "332729163992",
+      "hubspot_deal_ids": [
+        "239636639931"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239636639931",
+      "recommended_deal_name": "LES NOTAIRES DU 21 RUE D'ANTIBES, SELAS",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 4,
+      "email": "jules.marzin@notaires.fr",
+      "prenom": "JULES",
+      "nom": "MARZIN",
+      "etude": "GRUEL et associés",
+      "hubspot_contact_id": "332771787999",
+      "hubspot_deal_ids": [
+        "239643430109"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239643430109",
+      "recommended_deal_name": "GRUEL et associés",
+      "recommended_stage": "decisionmakerboughtin"
+    },
+    {
+      "ligne": 5,
+      "email": "elodie.triollier@cbj.notaires.fr",
+      "prenom": "Elodie",
+      "nom": "Triollier",
+      "etude": "CBJ Notaires",
+      "hubspot_contact_id": "332773594356",
+      "hubspot_deal_ids": [
+        "327564614876"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "327564614876",
+      "recommended_deal_name": "CBJ Notaires",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 6,
+      "email": "frederic.morin@30083.notaires.fr",
+      "prenom": "Frédéric",
+      "nom": "MORIN",
+      "etude": "NOUGUIER et associés",
+      "hubspot_contact_id": "743359571186",
+      "hubspot_deal_ids": [
+        "239592643772"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239592643772",
+      "recommended_deal_name": "NOUGUIER et associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 7,
+      "email": "mathieu.bec@notaires.fr",
+      "prenom": "Mathieu",
+      "nom": "Bec",
+      "etude": "CAP'NOTAIRES",
+      "hubspot_contact_id": "743369564346",
+      "hubspot_deal_ids": [
+        "239628125390"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239628125390",
+      "recommended_deal_name": "CAP'NOTAIRES",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 8,
+      "email": "caroline.oron@notaires.fr",
+      "prenom": "Caroline",
+      "nom": "Oron",
+      "etude": "BERNARD et associés",
+      "hubspot_contact_id": "740895581390",
+      "hubspot_deal_ids": [
+        "239645107445"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239645107445",
+      "recommended_deal_name": "BERNARD et associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 9,
+      "email": "philippe.cherrier@notaires.fr",
+      "prenom": "Philippe",
+      "nom": "Cherrier",
+      "etude": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "hubspot_contact_id": "332800894172",
+      "hubspot_deal_ids": [
+        "495227124939"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227124939",
+      "recommended_deal_name": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 10,
+      "email": "benoit.lamy@notaires.fr",
+      "prenom": "Benoit",
+      "nom": "Lamy",
+      "etude": "CABOT et associés",
+      "hubspot_contact_id": "332775394541",
+      "hubspot_deal_ids": [
+        "495226469605"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495226469605",
+      "recommended_deal_name": "CABOT et associés",
+      "recommended_stage": "3058337010"
+    },
+    {
+      "ligne": 11,
+      "email": "cecile.perrault@05001.notaires.fr",
+      "prenom": "Cecile",
+      "nom": "Perrault",
+      "etude": "OFFICE NOTARIAL GEONOT, SELARL",
+      "hubspot_contact_id": "743589178576",
+      "hubspot_deal_ids": [
+        "495369870570"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495369870570",
+      "recommended_deal_name": "OFFICE NOTARIAL GEONOT, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 12,
+      "email": "nicolas.comte@notaires.fr",
+      "prenom": "Nicolas",
+      "nom": "Comte",
+      "etude": "FALCOZ et associés",
+      "hubspot_contact_id": "332766400738",
+      "hubspot_deal_ids": [
+        "239634443488"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239634443488",
+      "recommended_deal_name": "FALCOZ et associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 13,
+      "email": "isabelle.kuhn-magret@notaires.fr",
+      "prenom": "Isabelle",
+      "nom": "kuhn-magret",
+      "etude": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "hubspot_contact_id": "332770008270",
+      "hubspot_deal_ids": [
+        "495227124939"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227124939",
+      "recommended_deal_name": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 14,
+      "email": "charles-alexandre.schultz@notaires.fr",
+      "prenom": "Charles-Alexandre",
+      "nom": "Schultz",
+      "etude": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "hubspot_contact_id": "741449793730",
+      "hubspot_deal_ids": [
+        "495227124939"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227124939",
+      "recommended_deal_name": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 15,
+      "email": "pierre-jean.meyssan@meyssan.notaires.fr",
+      "prenom": "Pierre",
+      "nom": "Jean Meyssan",
+      "etude": "MEYSSAN & ASSOCIES, SELARL",
+      "hubspot_contact_id": "332727361774",
+      "hubspot_deal_ids": [
+        "239594686708"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239594686708",
+      "recommended_deal_name": "MEYSSAN & ASSOCIES, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 16,
+      "email": "elise-anne.magret@notaires.fr",
+      "prenom": "Elise-Anne",
+      "nom": "Magret",
+      "etude": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "hubspot_contact_id": "332725552345",
+      "hubspot_deal_ids": [
+        "495227124939"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227124939",
+      "recommended_deal_name": "SCP CHERRIER, KUHN-MAGRET et MAGRET notaires associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 17,
+      "email": "pierre.girard@inference.notaires.fr",
+      "prenom": "Pierre",
+      "nom": "Girard",
+      "etude": "INFÉRENCE NOTAIRES, SELARL",
+      "hubspot_contact_id": "332771790037",
+      "hubspot_deal_ids": [
+        "239645109492"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239645109492",
+      "recommended_deal_name": "INFÉRENCE NOTAIRES, SELARL",
+      "recommended_stage": "decisionmakerboughtin"
+    },
+    {
+      "ligne": 18,
+      "email": "stephane.rambaud@13ruedeparis.notaires.fr",
+      "prenom": "Stéphane",
+      "nom": "Rambaud",
+      "etude": "13RueDeParis",
+      "hubspot_contact_id": "743368790246",
+      "hubspot_deal_ids": [
+        "239633411299"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239633411299",
+      "recommended_deal_name": "13RueDeParis ",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 19,
+      "email": "nicolas.delouis@paris.notaires.fr",
+      "prenom": "Nicolas",
+      "nom": "Delouis",
+      "etude": "Nicolas DELOUIS et Bernard CARVAIS, notaires associés titulaire d'un Office notarial",
+      "hubspot_contact_id": "215889475777",
+      "hubspot_deal_ids": [
+        "390652121296"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "390652121296",
+      "recommended_deal_name": "Nicolas DELOUIS et Bernard CARVAIS, notaires associés titulaire d'un Office notarial",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 20,
+      "email": "stephane.paolino@notaires.fr",
+      "prenom": "Stéphane",
+      "nom": "PAOLINO",
+      "etude": "Office notarial de Cagnes-sur-Mer, SCP",
+      "hubspot_contact_id": "332727369969",
+      "hubspot_deal_ids": [
+        "239631222976"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631222976",
+      "recommended_deal_name": "Office notarial de Cagnes-sur-Mer, SCP",
+      "recommended_stage": "3058337010"
+    },
+    {
+      "ligne": 21,
+      "email": "olivier.besancon@besanconseguin.notaires.fr",
+      "prenom": "Olivier",
+      "nom": "Besançon",
+      "etude": "BESANÇON et associé",
+      "hubspot_contact_id": "332806529212",
+      "hubspot_deal_ids": [
+        "239631218931"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631218931",
+      "recommended_deal_name": "BESANÇON et associé",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 22,
+      "email": "bruno.vaginay.04010@notaires.fr",
+      "prenom": "Bruno",
+      "nom": "Vaginay",
+      "etude": "UBAYE NOTAIRES & ASSOCIES",
+      "hubspot_contact_id": "743589091561",
+      "hubspot_deal_ids": [
+        "239634444537"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239634444537",
+      "recommended_deal_name": "UBAYE NOTAIRES & ASSOCIES",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 23,
+      "email": "christel.hoerter@notaires.fr",
+      "prenom": "Christel",
+      "nom": "Hoerter",
+      "etude": "Office notarial du PYLA, SARL",
+      "hubspot_contact_id": "332732751047",
+      "hubspot_deal_ids": [
+        "239632368842"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239632368842",
+      "recommended_deal_name": "Office notarial du PYLA, SARL",
+      "recommended_stage": "3357308134"
+    },
+    {
+      "ligne": 24,
+      "email": "audrey.hove@notaires.fr",
+      "prenom": "Audrey",
+      "nom": "Hove",
+      "etude": "HOVE-ROYER et associée, SELARL",
+      "hubspot_contact_id": "332725547239",
+      "hubspot_deal_ids": [
+        "239631217895"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631217895",
+      "recommended_deal_name": "HOVE-ROYER et associée, SELARL",
+      "recommended_stage": "decisionmakerboughtin"
+    },
+    {
+      "ligne": 25,
+      "email": "peggy.montesinos@notaires.fr",
+      "prenom": "Peggy",
+      "nom": "Montesinos",
+      "etude": "BOX et associée, SELARL",
+      "hubspot_contact_id": "332796461281",
+      "hubspot_deal_ids": [
+        "239592646886"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239592646886",
+      "recommended_deal_name": "BOX et associée, SELARL",
+      "recommended_stage": "decisionmakerboughtin"
+    },
+    {
+      "ligne": 26,
+      "email": "julie.retout@notaires.fr",
+      "prenom": "Julie",
+      "nom": "Retout",
+      "etude": "MALTHERRE et associée",
+      "hubspot_contact_id": "743589203184",
+      "hubspot_deal_ids": [
+        "239598008528"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239598008528",
+      "recommended_deal_name": "MALTHERRE et associée",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 27,
+      "email": "pauline.bernerd@cbn.notaires.fr",
+      "prenom": "Pauline",
+      "nom": "Bernerd",
+      "etude": "SELARL CLEMENT et associée",
+      "hubspot_contact_id": "332796450028",
+      "hubspot_deal_ids": [
+        "239598008521"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239598008521",
+      "recommended_deal_name": "SELARL CLEMENT et associée",
+      "recommended_stage": "1750947029"
+    },
+    {
+      "ligne": 28,
+      "email": "stephanie.jeanjean-boudon@notaires.fr",
+      "prenom": "Stéphanie",
+      "nom": "Jeanjean-boudon",
+      "etude": "JEANJEAN-BOUDON et associés",
+      "hubspot_contact_id": "332796462315",
+      "hubspot_deal_ids": [
+        "239595736257"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239595736257",
+      "recommended_deal_name": "JEANJEAN-BOUDON et associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 29,
+      "email": "steven.guerin@97116.notaires.fr",
+      "prenom": "Steven",
+      "nom": "Guerin",
+      "etude": "DABRICOT ET LAPLACE ANTOINE NOTAIRES, SELAS",
+      "hubspot_contact_id": "742720982259",
+      "hubspot_deal_ids": [
+        "239594689784"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239594689784",
+      "recommended_deal_name": "DABRICOT ET LAPLACE ANTOINE NOTAIRES, SELAS",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 30,
+      "email": "sebastien.serremoune@74041.notaires.fr",
+      "prenom": "Sebastien",
+      "nom": "SERREMOÛNE",
+      "etude": "GUILLEUX et associé, SELARL",
+      "hubspot_contact_id": "332796457159",
+      "hubspot_deal_ids": [
+        "239596566764"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239596566764",
+      "recommended_deal_name": "GUILLEUX et associé, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 31,
+      "email": "elise.decourt-bellin@etudenapoleon.notaires.fr",
+      "prenom": "Elise",
+      "nom": "Decourt Bellin",
+      "etude": "ETUDE NAPOLÉON, SELARL",
+      "hubspot_contact_id": "332794639554",
+      "hubspot_deal_ids": [
+        "495227175119"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227175119",
+      "recommended_deal_name": "ETUDE NAPOLÉON CHERBOURG",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 32,
+      "email": "melanie.dumesnil@notaires.fr",
+      "prenom": "Melanie",
+      "nom": "Dumesnil",
+      "etude": "NOTAPOLE, SELARL",
+      "hubspot_contact_id": "332775394522",
+      "hubspot_deal_ids": [
+        "239633409269"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239633409269",
+      "recommended_deal_name": "NOTAPOLE, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 33,
+      "email": "thierry.eveillard@85090.notaires.fr",
+      "prenom": "Thierry",
+      "nom": "Eveillard",
+      "etude": "LECOMTE et associé",
+      "hubspot_contact_id": "332734546165",
+      "hubspot_deal_ids": [
+        "239634446526"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239634446526",
+      "recommended_deal_name": "LECOMTE et associé",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 34,
+      "email": "florence.savoy@13155.notaires.fr",
+      "prenom": "Florence",
+      "nom": "Savoy",
+      "etude": "WILLEMIN-SAVOY",
+      "hubspot_contact_id": "743358717158",
+      "hubspot_deal_ids": [
+        "239631219910"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631219910",
+      "recommended_deal_name": "WILLEMIN-SAVOY",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 35,
+      "email": "marie.lauque-bourquin@83116.notaires.fr",
+      "prenom": "Marie",
+      "nom": "Lauque bourquin",
+      "etude": "LAUQUE-BOURQUIN Marie",
+      "hubspot_contact_id": "754068413626",
+      "hubspot_deal_ids": [
+        "239638760679"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239638760679",
+      "recommended_deal_name": "LAUQUE-BOURQUIN Marie",
+      "recommended_stage": "closedwon"
+    },
+    {
+      "ligne": 36,
+      "email": "nathalie.legall@78199.notaires.fr",
+      "prenom": "Nathalie",
+      "nom": "Le Gall",
+      "etude": "LE GALL Nathalie",
+      "hubspot_contact_id": "332725550323",
+      "hubspot_deal_ids": [
+        "239598007527"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239598007527",
+      "recommended_deal_name": "LE GALL Nathalie",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 37,
+      "email": "rocher.emmanuelle@13185.notaires.fr",
+      "prenom": "Emmanuelle",
+      "nom": "Rocher",
+      "etude": "ROCHER Emmanuelle",
+      "hubspot_contact_id": "332775400669",
+      "hubspot_deal_ids": [
+        "239637780716"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637780716",
+      "recommended_deal_name": "ROCHER Emmanuelle",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 38,
+      "email": "anne.schmidt@notaires.fr",
+      "prenom": "Anne",
+      "nom": "Schmidt",
+      "etude": "SCHMIDT Anne",
+      "hubspot_contact_id": "332732739825",
+      "hubspot_deal_ids": [
+        "239635591397"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239635591397",
+      "recommended_deal_name": "SCHMIDT Anne",
+      "recommended_stage": "1750947029"
+    },
+    {
+      "ligne": 39,
+      "email": "marion.coyola@notaires.fr",
+      "prenom": "Marion",
+      "nom": "Coyola",
+      "etude": "COYOLA, notaire, SAS à associé unique",
+      "hubspot_contact_id": "332800891074",
+      "hubspot_deal_ids": [
+        "239633409236"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239633409236",
+      "recommended_deal_name": "COYOLA, notaire, SAS à associé unique",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 40,
+      "email": "guillaume.valluche@valluche.notaires.fr",
+      "prenom": "Guillaume",
+      "nom": "Valluche",
+      "etude": "VALLUCHE Guillaume",
+      "hubspot_contact_id": "743590367429",
+      "hubspot_deal_ids": [
+        "239637778628"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637778628",
+      "recommended_deal_name": "VALLUCHE Guillaume",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 41,
+      "email": "sylvie.tudes@notaires.fr",
+      "prenom": "Sylvie",
+      "nom": "Tudes",
+      "etude": "LOULIER et associée",
+      "hubspot_contact_id": "332798243037",
+      "hubspot_deal_ids": [
+        "239636642016"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239636642016",
+      "recommended_deal_name": "LOULIER et associée",
+      "recommended_stage": "3058337010"
+    },
+    {
+      "ligne": 42,
+      "email": "alexandra.mignon-guzmann@notaires.fr",
+      "prenom": "Alexandra",
+      "nom": "Mignon-Guzmann",
+      "etude": "PIERONI MIGNON GUZMANN, SELARL",
+      "hubspot_contact_id": "744222542038",
+      "hubspot_deal_ids": [
+        "239635591368"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239635591368",
+      "recommended_deal_name": "PIERONI MIGNON GUZMANN, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 43,
+      "email": "nancy.rosas@notaires.fr",
+      "prenom": "Nancy",
+      "nom": "Rosas",
+      "etude": "ROSAS Nancy",
+      "hubspot_contact_id": "332800891067",
+      "hubspot_deal_ids": [
+        "239643433152"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239643433152",
+      "recommended_deal_name": "ROSAS Nancy",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 44,
+      "email": "caroline.duluc@38216.notaires.fr",
+      "prenom": "Caroline",
+      "nom": "Duluc",
+      "etude": "CAROLINE DULUC NOTAIRE, SARL",
+      "hubspot_contact_id": "332732738795",
+      "hubspot_deal_ids": [
+        "239645108441"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239645108441",
+      "recommended_deal_name": "CAROLINE DULUC NOTAIRE, SARL",
+      "recommended_stage": "3058337010"
+    },
+    {
+      "ligne": 45,
+      "email": "arnaud.barousse@31053.notaires.fr",
+      "prenom": "Arnaud",
+      "nom": "Barousse",
+      "etude": "BAROUSSE Arnaud",
+      "hubspot_contact_id": "741442019541",
+      "hubspot_deal_ids": [
+        "239633411314"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239633411314",
+      "recommended_deal_name": "BAROUSSE Arnaud",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 46,
+      "email": "amaury.boudrot@etude-boudrot.notaires.fr",
+      "prenom": "Amaury",
+      "nom": "Boudrot",
+      "etude": "BOUDROT Amaury",
+      "hubspot_contact_id": "332800901331",
+      "hubspot_deal_ids": [
+        "239632367854"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239632367854",
+      "recommended_deal_name": "BOUDROT Amaury",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 47,
+      "email": "sophie.borg@notaires.fr",
+      "prenom": "Sophie",
+      "nom": "Borg",
+      "etude": "OFFICE NOTARIAL DE LUZECH, SELASU",
+      "hubspot_contact_id": "332732739820",
+      "hubspot_deal_ids": [
+        "239628126425"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239628126425",
+      "recommended_deal_name": "OFFICE NOTARIAL DE LUZECH, SELASU",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 48,
+      "email": "severine.roze@roze.notaires.fr",
+      "prenom": "Séverine",
+      "nom": "Roze",
+      "etude": "ROZE Séverine",
+      "hubspot_contact_id": "743369428173",
+      "hubspot_deal_ids": [
+        "239638757564"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239638757564",
+      "recommended_deal_name": "ROZE Séverine",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 49,
+      "email": "pierre.clement@notaires.fr",
+      "prenom": "Pierre",
+      "nom": "Clément",
+      "etude": "SAS BESSAT et associés",
+      "hubspot_contact_id": "332725555428",
+      "hubspot_deal_ids": [
+        "239635596530"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239635596530",
+      "recommended_deal_name": "SAS BESSAT et associés",
+      "recommended_stage": "3058337010"
+    },
+    {
+      "ligne": 50,
+      "email": "n.bogdanova@notaires.fr",
+      "prenom": "Natalia",
+      "nom": "Bogdanova Pataud",
+      "etude": "BOGDANOVA-PATAUD Natalia",
+      "hubspot_contact_id": "743358770423",
+      "hubspot_deal_ids": [
+        "239637774543"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637774543",
+      "recommended_deal_name": "BOGDANOVA-PATAUD Natalia",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 51,
+      "email": "jean-marc.brun@cairn.notaires.fr",
+      "prenom": "Jean-Marc",
+      "nom": "Brun",
+      "etude": "CAIRN Notaires, SAS",
+      "hubspot_contact_id": "332794639580",
+      "hubspot_deal_ids": [
+        "239637776595"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637776595",
+      "recommended_deal_name": "CAIRN Notaires, SAS",
+      "recommended_stage": "decisionmakerboughtin"
+    },
+    {
+      "ligne": 52,
+      "email": "francoise.noharet@notaires.fr",
+      "prenom": "Françoise",
+      "nom": "Noharet",
+      "etude": "NOHARET Françoise",
+      "hubspot_contact_id": "743591815372",
+      "hubspot_deal_ids": [
+        "239633409259"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239633409259",
+      "recommended_deal_name": "NOHARET Françoise",
+      "recommended_stage": "1750947029"
+    },
+    {
+      "ligne": 53,
+      "email": "caroline.courtiade@notaires.fr",
+      "prenom": "Caroline",
+      "nom": "Courtiade",
+      "etude": "ACTALION Notaires",
+      "hubspot_contact_id": "332796463352",
+      "hubspot_deal_ids": [
+        "239635593433"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239635593433",
+      "recommended_deal_name": "ACTALION Notaires",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 54,
+      "email": "yann.legros@notaires.fr",
+      "prenom": "Yann",
+      "nom": "Legros",
+      "etude": "LEGROS et associé",
+      "hubspot_contact_id": "332732750038",
+      "hubspot_deal_ids": [
+        "495371308247"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495371308247",
+      "recommended_deal_name": "LEGROS et associé",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 55,
+      "email": "frederi.anselm@acto.notaires.fr",
+      "prenom": "Frédéric",
+      "nom": "Anselm",
+      "etude": "acto notaires, SELARL",
+      "hubspot_contact_id": "743589148919",
+      "hubspot_deal_ids": [
+        "239631217910"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631217910",
+      "recommended_deal_name": "Acto Notaires, SELARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 56,
+      "email": "delphine.moreau@notaires.fr",
+      "prenom": "Delphine",
+      "nom": "Moreau",
+      "etude": "MOREAU Delphine",
+      "hubspot_contact_id": "332775383265",
+      "hubspot_deal_ids": [
+        "239594690779"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239594690779",
+      "recommended_deal_name": "MOREAU Delphine",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 57,
+      "email": "catherine.guegan@guegan.notaires.fr",
+      "prenom": "Catherine",
+      "nom": "Guegan",
+      "etude": "GUEGAN Catherine",
+      "hubspot_contact_id": "332770006241",
+      "hubspot_deal_ids": [
+        "239637775579"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637775579",
+      "recommended_deal_name": "GUEGAN Catherine",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 58,
+      "email": "henri.leyrat@notaires.fr",
+      "prenom": "Henri",
+      "nom": "LEYRAT",
+      "etude": "Office notarial Clermont République",
+      "hubspot_contact_id": "742720492776",
+      "hubspot_deal_ids": [
+        "239637779685"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239637779685",
+      "recommended_deal_name": "Office notarial Clermont République",
+      "recommended_stage": "closedwon"
+    },
+    {
+      "ligne": 59,
+      "email": "alexandre.frutoso@notaires.fr",
+      "prenom": "Alexandre",
+      "nom": "Frutoso",
+      "etude": "FRUTOSO Alexandre",
+      "hubspot_contact_id": "737814202596",
+      "hubspot_deal_ids": [
+        "358953600209"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "358953600209",
+      "recommended_deal_name": "FRUTOSO Alexandre",
+      "recommended_stage": "closedwon"
+    },
+    {
+      "ligne": 60,
+      "email": "anne-sophie.arnal@valparis.notaires.fr",
+      "prenom": "Anne-Sophie",
+      "nom": "ARNAL",
+      "etude": "VIDALENC, ARNAL & LAGRANGE, Notaires Associés",
+      "hubspot_contact_id": "740895570128",
+      "hubspot_deal_ids": [
+        "145246850264"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "145246850264",
+      "recommended_deal_name": "VIDALENC, ARNAL & LAGRANGE, Notaires Associés",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 61,
+      "email": "faustine.pessia@notaires.fr",
+      "prenom": "Faustine",
+      "nom": "Pessia",
+      "etude": "Faustine Pessia Notaires",
+      "hubspot_contact_id": "741447779572",
+      "hubspot_deal_ids": [
+        "495224997074"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495224997074",
+      "recommended_deal_name": "Faustine Pessia Notaires ",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 62,
+      "email": "laurence.zilic-balay@43-75.notaires.fr",
+      "prenom": "Laurence",
+      "nom": "ZILIC BALAY",
+      "etude": "",
+      "hubspot_contact_id": "332734553277",
+      "hubspot_deal_ids": [
+        "239631219928"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "239631219928",
+      "recommended_deal_name": "43-75 Notaires",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 63,
+      "email": "anthony.savale@latelier.notaires.fr",
+      "prenom": "Anthony",
+      "nom": "SAVALE",
+      "etude": "Office notarial Savale Gnanhoue",
+      "hubspot_contact_id": "743368918250",
+      "hubspot_deal_ids": [
+        "495674374330"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495674374330",
+      "recommended_deal_name": "L'Atelier Notarial",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 64,
+      "email": "chloe.jean@33059.notaires.fr",
+      "prenom": "Chloé",
+      "nom": "JEAN",
+      "etude": "Office Notarial B'A, SARL",
+      "hubspot_contact_id": "743589058799",
+      "hubspot_deal_ids": [
+        "495181814009"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495181814009",
+      "recommended_deal_name": "Office Notarial B'A, SARL",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 65,
+      "email": "julie.andru-meliard@nca.notaires.fr",
+      "prenom": "Julie",
+      "nom": "Andru",
+      "etude": "NCA notaire",
+      "hubspot_contact_id": "741454903512",
+      "hubspot_deal_ids": [
+        "495227125993"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495227125993",
+      "recommended_deal_name": "NCA notaire",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 66,
+      "email": "derouetclement@gmail.com",
+      "prenom": "Clement",
+      "nom": "Derouet",
+      "etude": "",
+      "hubspot_contact_id": "741456894155",
+      "hubspot_deal_ids": [],
+      "hubspot_error": null,
+      "recommended_deal_id": null,
+      "recommended_deal_name": null,
+      "recommended_stage": null
+    },
+    {
+      "ligne": 67,
+      "email": "contact@gin44.fr",
+      "prenom": "Laetitia",
+      "nom": "Lelong",
+      "etude": "",
+      "hubspot_contact_id": "742661949680",
+      "hubspot_deal_ids": [],
+      "hubspot_error": null,
+      "recommended_deal_id": null,
+      "recommended_deal_name": null,
+      "recommended_stage": null
+    },
+    {
+      "ligne": 68,
+      "email": "are@conseil-et-notaire.fr",
+      "prenom": "Antoine",
+      "nom": "de RAVEL d'ESCLAPON",
+      "etude": "",
+      "hubspot_contact_id": "742660524272",
+      "hubspot_deal_ids": [],
+      "hubspot_error": null,
+      "recommended_deal_id": null,
+      "recommended_deal_name": null,
+      "recommended_stage": null
+    },
+    {
+      "ligne": 69,
+      "email": "rouanet.france@notaires.fr",
+      "prenom": "France",
+      "nom": "Rouanet",
+      "etude": "Rouanet - Giraud",
+      "hubspot_contact_id": "743589079248",
+      "hubspot_deal_ids": [
+        "495369869507"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495369869507",
+      "recommended_deal_name": "Rouanet - Giraud ",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 70,
+      "email": "sandrine.billod@billod.notaires.fr",
+      "prenom": "Sandrine",
+      "nom": "BILLOD",
+      "etude": "Denis Billod, Notaire et Conseils , SELARL BILLOD Denis",
+      "hubspot_contact_id": "741426539721",
+      "hubspot_deal_ids": [
+        "495182544068"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495182544068",
+      "recommended_deal_name": "Denis Billod, Notaire et Conseils , SELARL BILLOD Denis",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 71,
+      "email": "j.pinget@notaires.fr",
+      "prenom": "Justine",
+      "nom": "Pinget",
+      "etude": "Pinget",
+      "hubspot_contact_id": "741449628895",
+      "hubspot_deal_ids": [
+        "495463287025"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495463287025",
+      "recommended_deal_name": "Pinget",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 72,
+      "email": "patrick.legrigeois@notaires.fr",
+      "prenom": "Patrick",
+      "nom": "Legrigeois",
+      "etude": "FLV COLOMIERS - Nouvel élément : Deal",
+      "hubspot_contact_id": "750550389954",
+      "hubspot_deal_ids": [
+        "321055593690"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "321055593690",
+      "recommended_deal_name": "FLV COLOMIERS - Nouvel élément : Deal",
+      "recommended_stage": "2010743020"
+    },
+    {
+      "ligne": 73,
+      "email": "philippe.bernard@notaires.fr",
+      "prenom": "Philippe",
+      "nom": "Bernard",
+      "etude": "Carpentier Bernard Claudot - New Deal",
+      "hubspot_contact_id": "332773602546",
+      "hubspot_deal_ids": [
+        "495369869528"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495369869528",
+      "recommended_deal_name": "Carpentier Bernard Claudot - New Deal",
+      "recommended_stage": "qualifiedtobuy"
+    },
+    {
+      "ligne": 74,
+      "email": "broudeur@notaires.fr",
+      "prenom": "Marie-Agnes",
+      "nom": "Broudeur",
+      "etude": "SELARL BROUDEUR-GAUTREAU-HAOND",
+      "hubspot_contact_id": "742660670703",
+      "hubspot_deal_ids": [
+        "495226360028"
+      ],
+      "hubspot_error": null,
+      "recommended_deal_id": "495226360028",
+      "recommended_deal_name": "SELARL BROUDEUR-GAUTREAU-HAOND ",
+      "recommended_stage": "qualifiedtobuy"
+    }
+  ]
+}

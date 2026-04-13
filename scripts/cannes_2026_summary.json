@@ -1,0 +1,35 @@
+{
+  "sourceFile": "cannes_2026_demos.csv",
+  "totalRowsInput": 77,
+  "uniqueRowsAfterDedupe": 75,
+  "duplicatesDropped": 2,
+  "doublonsSupprimes": [
+    {
+      "ligne": 25,
+      "email": "anne-sophie.arnal@valparis.notaires.fr",
+      "commercial": "Karl",
+      "doublonDeLigne": 8
+    },
+    {
+      "ligne": 78,
+      "email": "isabelle.kuhn-magret@notaires.fr",
+      "commercial": "Quentin",
+      "doublonDeLigne": 64
+    }
+  ],
+  "byCommercial": {
+    "Juliette": {
+      "demoCount": 21,
+      "uniqueEmailCount": 21
+    },
+    "Karl": {
+      "demoCount": 38,
+      "uniqueEmailCount": 38
+    },
+    "Quentin": {
+      "demoCount": 16,
+      "uniqueEmailCount": 16
+    }
+  },
+  "mrrNote": "Ce CSV ne contient pas de montants d'abonnement. Le MRR réel vient de Stripe (sync) croisé avec l'email du contact / deal HubSpot. Les comptes ci-dessus sont un volume de démos par commercial, pas un MRR €."
+}
