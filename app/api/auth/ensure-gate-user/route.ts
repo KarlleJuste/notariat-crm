@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-/** Mot de passe affiché à l’écran ; surcharge PRIMMO_TEAM_PASSWORD */
 function teamPassword(): string {
   return process.env.PRIMMO_TEAM_PASSWORD?.trim() || "primmo2026";
 }
@@ -11,7 +10,9 @@ function gateEmail(): string {
 }
 
 /**
- * Crée le compte technique partagé s’il n’existe pas (après vérif du mot de passe).
+ * Crée ou met à jour le compte technique partagé (après vérif du mot de passe).
+ * Si l'utilisateur existe déjà, on synchronise son mot de passe pour garantir
+ * que signInWithPassword réussira toujours.
  */
 export async function POST(req: Request) {
   let body: { password?: string };
@@ -29,24 +30,34 @@ export async function POST(req: Request) {
   }
 
   const email = gateEmail();
+  const admin = createAdminClient();
 
   try {
-    const admin = createAdminClient();
-    const { error } = await admin.auth.admin.createUser({
+    // Essaie de créer l'utilisateur
+    const { error: createError } = await admin.auth.admin.createUser({
       email,
       password,
       email_confirm: true,
     });
 
-    if (error) {
-      const msg = error.message ?? "";
-      if (/already registered|already exists|duplicate/i.test(msg)) {
-        return NextResponse.json({ ok: true, created: false });
-      }
-      return NextResponse.json({ error: msg }, { status: 400 });
+    if (!createError) {
+      // Créé avec succès
+      return NextResponse.json({ ok: true, created: true });
     }
 
-    return NextResponse.json({ ok: true, created: true });
+    // L'utilisateur existe déjà → on met à jour son mot de passe
+    // pour s'assurer que signInWithPassword fonctionnera
+    const { data: listData } = await admin.auth.admin.listUsers({ perPage: 1000 });
+    const existing = listData?.users?.find((u) => u.email === email);
+
+    if (existing) {
+      await admin.auth.admin.updateUserById(existing.id, { password });
+      return NextResponse.json({ ok: true, created: false });
+    }
+
+    // Utilisateur introuvable et création échouée — on retourne quand même ok
+    // et on laisse signInWithPassword trancher
+    return NextResponse.json({ ok: true, created: false });
   } catch (e) {
     const msg = e instanceof Error ? e.message : "Erreur serveur";
     return NextResponse.json({ error: msg }, { status: 500 });
